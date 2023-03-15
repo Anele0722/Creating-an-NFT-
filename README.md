@@ -4,10 +4,10 @@ This project is an NFT (Non-Fungible Token) project with a smart contract implem
 ## Getting Started
 To get started with this project, you will need to have the following:
 
-+Node.js
-+Truffle framework
-+Ganache
-+Metamask
++ Node.js
++ Truffle framework
++ Ganache
++ Metamask
 
 ## Installation
 1. Clone the repository
@@ -36,8 +36,7 @@ truffle compile
 
 5. Migrate the smart contracts
 
-```truffle migrate
-    ```
+```truffle migrate```
 
 
 6. Connect Metamask to Ganache
