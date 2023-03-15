@@ -24,6 +24,7 @@ npm install
 
 3. Start Ganache
 
+
 4. Compile the smart contracts
 
 ```python
@@ -40,6 +41,7 @@ truffle compile
 
 
 6. Connect Metamask to Ganache
+
 
 7. Run the web application
 
