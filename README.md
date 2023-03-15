@@ -37,17 +37,8 @@ truffle compile
 
 ```truffle migrate
     ```
+    
 
-
-6. Connect Metamask to Ganache
-
-
-7. Run the web application
-
-```sql
-npm run start
-```
-   
 
 ## Usage
 The web application allows users to mint NFTs and view their NFTs. Each NFT has a unique ID and metadata, which includes a name, description, and image URL.
