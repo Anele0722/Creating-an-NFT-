@@ -39,22 +39,23 @@ truffle compile
     ```
 
 
-
 6. Connect Metamask to Ganache
 
 
 7. Run the web application
 
-```npm run start
-    ```
-
-
+```sql
+npm run start
+```
+   
 
 ## Usage
 The web application allows users to mint NFTs and view their NFTs. Each NFT has a unique ID and metadata, which includes a name, description, and image URL.
 
 ## Smart Contract Details
+
 #### ERC-721 Token
+
 The ERC-721 token is a standard interface for non-fungible tokens on the Ethereum blockchain. The smart contract implementation follows the ERC-721 standard and includes the following functions:
 
 + **totalSupply**: returns the total supply of tokens
