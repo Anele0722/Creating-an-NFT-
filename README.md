@@ -36,8 +36,7 @@ truffle compile
 5. Migrate the smart contracts
 
 ```truffle migrate
-```
-
+    ```
 
 
 
@@ -47,7 +46,7 @@ truffle compile
 7. Run the web application
 
 ```npm run start
-```
+    ```
 
 
 
