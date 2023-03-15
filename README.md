@@ -12,7 +12,6 @@ To get started with this project, you will need to have the following:
 ## Installation
 1. Clone the repository
 
-
 ```
 git clone https://github.com/<Anele0722>/<Creating-an-Nft->.git
 ````
@@ -27,7 +26,6 @@ npm install
 
 4. Compile the smart contracts
 
-
 ```python
 
 truffle compile
@@ -37,6 +35,8 @@ truffle compile
 5. Migrate the smart contracts
 
 ```truffle migrate```
+
+
 
 
 6. Connect Metamask to Ganache
