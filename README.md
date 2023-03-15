@@ -10,37 +10,48 @@ To get started with this project, you will need to have the following:
 +Metamask
 
 ## Installation
-Clone the repository
+1. Clone the repository
 
 
 ```
 git clone https://github.com/<Anele0722>/<Creating-an-Nft->.git
-Install dependencies
 ````
 
-
+2. Install Dependencies
 ```bash
-cd <repository>
+cd <Creating-an-Nft>
 npm install
 ```
 
-Start Ganache
+3. Start Ganache
 
-Compile the smart contracts
+4. Compile the smart contracts
 
-python
-Copy code
+
+```python
+
 truffle compile
-Migrate the smart contracts
+```
 
-truffle migrate
-Connect Metamask to Ganache
 
-Run the web application
+5. Migrate the smart contracts
 
-sql
-Copy code
+```truffle migrate
+```
+
+
+6. Connect Metamask to Ganache
+
+7. Run the web application
+
+
+
+```sql
+
 npm run start
+```
+
+
 
 ## Usage
 The web application allows users to mint NFTs and view their NFTs. Each NFT has a unique ID and metadata, which includes a name, description, and image URL.
@@ -49,16 +60,16 @@ The web application allows users to mint NFTs and view their NFTs. Each NFT has 
 #### ERC-721 Token
 The ERC-721 token is a standard interface for non-fungible tokens on the Ethereum blockchain. The smart contract implementation follows the ERC-721 standard and includes the following functions:
 
-+ totalSupply: returns the total supply of tokens
-+ balanceOf: returns the balance of tokens for a given address
-+ ownerOf: returns the owner of a given token ID
-+ approve: approves a spender to transfer ownership of a given token ID
-+ getApproved: returns the approved spender for a given token ID
-+ setApprovalForAll: sets or unsets the approval of a third party to manage all of the sender's tokens
++ **totalSupply**: returns the total supply of tokens
++ **balanceOf**: returns the balance of tokens for a given address
++ **ownerOf**: returns the owner of a given token ID
++ **approve**: approves a spender to transfer ownership of a given token ID
++ **getApproved**: returns the approved spender for a given token ID
++ **setApprovalForAll**: sets or unsets the approval of a third party to manage all of the sender's tokens
 + isApprovedForAll: returns whether a given operator is approved to manage all of the sender's tokens
-+ transferFrom: transfers the ownership of a given token ID from one address to another
-+ safeTransferFrom: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
-+ safeTransferFrom: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
++ **transferFrom**: transfers the ownership of a given token ID from one address to another
++ **safeTransferFrom**: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
++ **safeTransferFrom**: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
 
 ## NFT Metadata
 The NFT metadata is stored in a separate JSON file for each token ID. The metadata includes a name, description, and image URL. The JSON file is stored on a IPFS (InterPlanetary File System) node and the CID (Content Identifier) is stored in the smart contract.
