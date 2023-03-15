@@ -18,7 +18,7 @@ git clone https://github.com/<Anele0722>/<Creating-an-Nft->.git
 ````
 
 2. Install Dependencies
-```bash
+```
 cd <Creating-an-Nft>
 npm install
 ```
@@ -37,7 +37,7 @@ truffle compile
 5. Migrate the smart contracts
 
 ```truffle migrate
-```
+    ```
 
 
 6. Connect Metamask to Ganache
@@ -46,9 +46,7 @@ truffle compile
 
 
 
-```sql
-
-npm run start
+```npm run start
 ```
 
 
