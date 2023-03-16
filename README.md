@@ -54,7 +54,7 @@ The ERC-721 token is a standard interface for non-fungible tokens on the Ethereu
 + **approve**: approves a spender to transfer ownership of a given token ID
 + **getApproved**: returns the approved spender for a given token ID
 + **setApprovalForAll**: sets or unsets the approval of a third party to manage all of the sender's tokens
-+ isApprovedForAll: returns whether a given operator is approved to manage all of the sender's tokens
++ **isApprovedForAll**: returns whether a given operator is approved to manage all of the sender's tokens
 + **transferFrom**: transfers the ownership of a given token ID from one address to another
 + **safeTransferFrom**: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
 + **safeTransferFrom**: transfers the ownership of a given token ID from one address to another, with an additional data parameter to prevent accidental transfers
@@ -66,4 +66,4 @@ The NFT metadata is stored in a separate JSON file for each token ID. The metada
 Contributions to this project are welcome. If you find a bug or have a feature request, please open an issue or submit a pull request.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the **LICENSE** file for details.
