@@ -33,14 +33,13 @@ truffle compile
 ```
 
 
-5. Migrate the smart contracts
+5. Migrate the smart contract
 
-```truffle migrate
-    ```
-    
+`truffle migrate
+`
 
 
-## Usage
+  ## Usage
 The web application allows users to mint NFTs and view their NFTs. Each NFT has a unique ID and metadata, which includes a name, description, and image URL.
 
 ## Smart Contract Details
